@@ -1,15 +1,21 @@
 
 body { 
-    background-color: #f8f9fa;
+    background-color: #43e11253;
+}
+/*Para la linea debajo el titulo*/
+.container h1::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #602929;
+    margin: 20px 0;
+
 }
 
 .card {
     margin-bottom: 20px;
 }
-/* #fondo{ */
-    /* min-height: 100vh; */
-    /* position: relative; */
-/* } */
+
 video{
     position: absolute ;
     top: 0 ;
@@ -28,9 +34,12 @@ video{
     background: #1c1c1d;
     opacity: 0.5;
     mix-blend-mode: overlay;
+    background-size: cover; 
 
 }
+/* Fondo donde esta el collage de imagen*/
 #fondo{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,4 +48,8 @@ video{
     background-position: center;
 
 
+}
+
+#btn1 {
+    background: #602929;
 }

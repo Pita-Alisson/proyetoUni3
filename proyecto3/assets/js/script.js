@@ -20,16 +20,21 @@ document.addEventListener('DOMContentLoaded', () => {
             <img src="${personaje.imagen}" class="card-img-top" alt="${personaje.nombre}">
             <div class="card-body">
               <h5 class="card-title">${personaje.nombre}</h5>
-              <p class="card-text"><strong>Edad:</strong> ${personaje.edad}</p>
-              <p class="card-text"><strong>Ocupación:</strong> ${personaje.ocupacion}</p>
-              <p class="card-text"><strong>Familia:</strong> ${personaje.familia}</p>
-              <p class="card-text">${personaje.descripcion}</p>
+              <p class="card-text"><strong>Departamento:</strong> ${personaje.departamento}</p>
+              <p class="card-text"><strong>Ubicación:</strong> ${personaje.ubicacion}</p>
+              <p class="card-text"><strong>Clima:</strong> ${personaje.clima}</p>
+              <p class="card-text"><strong>Descripción: </strong>${personaje.descripcion}</p>
+              <a  href="assets/paginas/detalles.html" class="btn btn-primary" id='${personaje.id}'>Go somewhere</a>
+              
             </div>
           </div>
         `;
         container.appendChild(card);
+
       });
+
     }
+
   
     // Función de búsqueda
     
@@ -46,7 +51,29 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error al cargar los datos:', error));
     });
+    // Funcion para ver mas detalles de cada card  
+  
+
+  
+
+    //      const botonVerMas = document.getElementById('${personaje.id}')
+    
+
+    //  if (botonVerMas){
+    //  botonVerMas.addEventListener('click', (event) => {
+    //  const idPersonaje = event.target.id;
+    //  alert("hola mundo");
+    //   // window.location.href = `detalles.html?id=${idPersonaje}`;
+    //   });
+    // }else{
+    //   console.error(`No se encontró el elemento con id: ${personaje.id}`);
+
+
+  
 });
+
+
+
   
 
 /*

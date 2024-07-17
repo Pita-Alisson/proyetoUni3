@@ -1,43 +1,269 @@
 [
     {
-      "nombre": "Homer Simpson",
-      "edad": 39,
-      "ocupacion": "Inspector de seguridad en la planta nuclear",
-      "familia": "Marge, Bart, Lisa, Maggie",
-      "descripcion": "El padre de la familia Simpson, conocido por su amor a la cerveza y su pereza.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png"
+      "id":"1",
+      "nombre": "Salar de Uyuni",
+      "departamento": "Potosi",
+      "ubicacion": "Ubicado al suroeste de Bolivia",
+      "descripcion": "Marge, Bart, Lisa, Maggie",
+      "clima": "El padre de la familia Simpson, conocido por su amor a la cerveza y su pereza.",
+      "imagen": "https://imagenes.eltiempo.com/files/image_1200_600/uploads/2023/03/31/6426e153ac10c.jpeg"
     },
     {
-      "nombre": "Marge Simpson",
-      "edad": 36,
-      "ocupacion": "Ama de casa",
-      "familia": "Homer, Bart, Lisa, Maggie",
-      "descripcion": "La matriarca de la familia Simpson, conocida por su peinado azul y su carácter paciente.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/en/0/0b/Marge_Simpson.png"
+      "id":"2",
+      "nombre": "Ojo del Inca",
+      "departamento": "Potosi",
+      "ubicacion": "Ubicado en la provincia Tomás Frías, cerca de la comunidad Tarapaya. ",
+      "descripcion": "Conocido por la peculiaridad de se un crater de volcán que emana desde sus profundidades agua hirviendo.",
+      "clima": "Sus aguas tienen una temperatura aproximada de 35 grados.",
+      "imagen": "https://elpotosi.net/img/contents/images_980/2019/08/31/34300790-196b-4577-b548-3cb5aa82e50a.jpg"
     },
     {
-      "nombre": "Bart Simpson",
-      "edad": 10,
-      "ocupacion": "Estudiante",
-      "familia": "Homer, Marge, Lisa, Maggie",
-      "descripcion": "El hijo mayor de los Simpson, travieso y rebelde.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png"
+      "id":"3",
+      "nombre": "Laguna Negra",
+      "departamento": "Potosi",
+      "ubicacion": "Ubicado a 22 km del municipio de Uyuni. ",
+      "descripcion": "El camino hacia la laguna presenta enormes formaciones de roca volcanica petrificada rodeadas de plantas que parecen esculturas.",
+      "clima": "De clima frio por la altura.",
+      "imagen": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/09/8d/69/laguna-negra.jpg?w=1200&h=1200&s=1"
+
     },
     {
-      "nombre": "Lisa Simpson",
-      "edad": 8,
-      "ocupacion": "Estudiante",
-      "familia": "Homer, Marge, Bart, Maggie",
-      "descripcion": "La hija inteligente y sensible de los Simpson, apasionada por la música y el medio ambiente.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/en/e/ec/Lisa_Simpson.png"
+      "id":"4",
+      "nombre": "Parque Nacional Sajama",
+      "departamento": "Oruro",
+      "ubicacion": "Se encuentra en los municipios de Curahuara de Carangas y Turco de la provincia de Sajama al noroeste del departamento de Oruro. ",
+      "descripcion": "Se caracteriza principalmente por los imponentes conos volcánicos de la Cordillera Occidental.También presenta gran cantidad de lagunas y cantidades de bofedales altoandinos repartidos por todo el parque. La vegetación predominantes son las gramíneas duras y silificadas.",
+      "clima": "El clima de la zona se caracteriza por ser semiárido y frío.",
+      "imagen": "https://peakvisor.com/photo/Nevado-Sajama.jpg"
+
     },
     {
-      "nombre": "Maggie Simpson",
-      "edad": 1,
-      "ocupacion": "Bebé",
-      "familia": "Homer, Marge, Bart, Lisa",
-      "descripcion": "La bebé de la familia, conocida por su chupete.",
-      "imagen": "https://upload.wikimedia.org/wikipedia/en/9/9d/Maggie_Simpson.png"
+      "id":"5",
+      "nombre": "Pampa Auliagas y la Atlántida de los Andes",
+      "departamento": "Oruro",
+      "ubicacion": "Ubicada en la provincia Ladislao Cabrera, al Sur de la ciudad de Oruro, distante a 180 kilómetros aproximadamente. ",
+      "descripcion": "La geografía de Pampa Aullagas es arenosa, blanca como si alguna vez hubo en ese sitio, un mar o un lago.",
+      "clima": "De clima frio.",
+      "imagen": "https://www.boliviaentusmanos.com/turismo/imagenes/paullagas2.jpg"
+
+    },
+    {
+      "id":"6",
+      "nombre": "Ciudad de Alcaya",
+      "departamento": "Oruro",
+      "ubicacion": "ubicada en el municipio de Salinas de Garci Mendoza del departamento de Oruro en el Altiplano de Bolivia.",
+      "descripcion": "En este sitio se encuentran varias herramientas, utensilios, chullpares, tejidos y artesanías precolombinas que fueron recuperadas y depositadas para su exposición.",
+      "clima": "De clima frio, igual que la ciudad de Oruro.",
+      "imagen": "https://lamula.pe/media/uploads/c7b210ba-400d-42e8-9a21-9d79e3e2f3b0.jpg"
+
+    },
+    {
+      "id":"7",
+      "nombre": "Valle de la Luna",
+      "departamento": "La Paz",
+      "ubicacion": "Este maravilloso paraje debe su nombre a la escasez de flora y fauna que presenta, dándole un aspecto similar a la superficie lunar. Al llegar allí, se siente como si estuvieras en otro lugar lejos de la Tierra.",
+      "descripcion": "Este maravilloso paraje debe su nombre a la escasez de flora y fauna que presenta, dándole un aspecto similar a la superficie lunar. Al llegar allí, se siente como si estuvieras en otro lugar lejos de la Tierra.",
+      "clima": "La temperatura promedio anual tiene una máxima de 24,5 °C y una mínima de 17,1 °C.",
+      "imagen": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/115000/115765-Valle-De-La-Luna.jpg"
+
+    },
+    {
+      "id":"8",
+      "nombre": "Copacabana",
+      "departamento": "La Paz",
+      "ubicacion": "Ubicada en la provincia Manco Kapac en el departamento de La Paz",
+      "descripcion": "Copacabana es una hermosa ciudad construida entre los cerros Calvario y Niño Calvario, a orillas del lago Titicaca",
+      "clima": "Copacabana tiene un clima relativamente frío. En invierno, las temperaturas pueden descender hasta 1 °C, mientras que en primavera alcanzan los 21 °C",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Copacabana%2C_Bolivia_at_sunset.jpg/1200px-Copacabana%2C_Bolivia_at_sunset.jpg"
+
+    },
+    {
+      "id":"9",
+      "nombre": "Lago Titicaca",
+      "departamento": "La Paz",
+      "ubicacion": "eUbicado en la región andina de América del Sur, se extiende a través de la frontera entre Perú y Bolivia",
+      "descripcion": "El Lago Titicaca es el lago navegable más alto del mundo y se encuentra en los Andes centrales, dentro de la meseta del Collao. Este lago es una maravilla natural con una rica historia y una belleza impresionante",
+      "clima": "Las temperaturas pueden llegar hasta 25 °C durante el día y descender a 0 °C durante la noche",
+      "imagen": "https://media.traveler.es/photos/63a6f462777730b397020ac4/16:9/w_2560%2Cc_limit/GettyImages-523528056.jpg"
+
+    },
+
+    {
+      "id":"10",
+      "nombre": "Cristo de la Concordia",
+      "departamento": "Cochabambaa",
+      "ubicacion": "Cerro San Pedro, Cochabamba",
+      "descripcion": "Monumento religioso con mirador panorámico.",
+      "clima": "Templado, con frecuentes días soleados.",
+      "imagen": "https://www.boliviaentusmanos.com/turismo/imagenes/cristo-de-la-concordia-1.jpg"
+      
+    },
+    {
+      "id":"11",
+      "nombre": "Parque Nacional Carrasco",
+      "departamento": "Cochabambaa",
+      "ubicacion": "Provincia de Chapare, Cochabamba",
+      "descripcion": "Reserva natural con diversidad biológica y paisajes montañosos.",
+      "clima": "Tropical húmedo, con temperaturas cálidas.",
+      "imagen": "https://www.boliviaentusmanos.com/turismo/imagenes/parque-carrasco-1.jpg"
+    },
+    {
+      "id":"12",
+      "nombre": "Plaza 14 de Septiembre",
+      "departamento": "Cochabambaa",
+      "ubicacion": "Centro de Cochabamba",
+      "descripcion": "Plaza principal con arquitectura colonial y áreas verdes.",
+      "clima": "Templado, con variaciones estacionales marcadas.",
+      "imagen": "https://boliviatravelsite.com/Images/Attractionphotos/plaza-14-de-septiembre-cochabamba-002.jpg"
+    },
+    {
+      "id":"13",
+      "nombre": "Plaza 25 de Mayo",
+      "departamento": "Sucre",
+      "ubicacion": "Centro histórico de Sucre ",
+      "descripcion": "es el corazón de la ciudad, rodeada por edificios coloniales y una impresionante catedral.",
+      "clima": " tiene un clima templado todo el año, con días cálidos y noches frescas.",
+      "imagen": "https://oxigeno.bo/sites/default/files/styles/standar_640x480/public/14-plaza-25-de-mayo-sucre-bolivia.jpg?itok=_ENyfXOo"
+      
+    },
+    {
+      "id":"14",
+      "nombre": "Castillo de la Glorieta",
+      "departamento": "Sucre",
+      "ubicacion": "A las afueras de Sucre",
+      "descripcion": "es una joya arquitectónica ubicada en las afueras de Sucre, rodeada de hermosos jardines y vistas panorámicas de la ciudad. Construido en el siglo XIX, combina elementos neoclásicos y barrocos, siendo un testimonio del esplendor histórico de la región.",
+      "clima": " días templados.",
+      "imagen": "https://cdn.bolivia.com/sdi/2023/05/04/captan-fantasmas-en-castillo-la-glorieta-1144033.jpg"
+      
+    },
+    {
+      "id":"15",
+      "nombre": "Parque Cretácico",
+      "departamento": "Sucre",
+      "ubicacion": "A las afueras de Sucre",
+      "descripcion": "es famoso por su huella de dinosaurio más grande del mundo. Los visitantes pueden ver impresionantes réplicas de dinosaurios y aprender sobre la rica historia paleontológica de la región.",
+      "clima": " días templados y noches frescas.",
+      "imagen": "https://previews.123rf.com/images/diegograndi/diegograndi1704/diegograndi170401716/76977735-modelo-de-dinosaurio-en-el-parque-cret%C3%A1cico-de-cal-orcko-sucre-bolivia.jpg"
+      
+    },
+    {
+      "id":"16",
+      "nombre": "villa montes",
+      "departamento": "Tarija",
+      "ubicacion": "Al sureste de Tarija, cerca de la frontera con Argentina",
+      "descripcion": "Villa montes es conocida por su historia petrolrra y su entorno natural, ideal para la observacion de flora y fauna.",
+      "clima": "Cálido y seco.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs2oB851u2n-vyrgVQBXFOVx8p4H6QitMuEQ&s"
+      
+    },
+    
+    {
+      "id":"17",
+      "nombre": "Valle de Concepción",
+      "departamento": "Tarija",
+      "ubicacion": "Al noreste de la ciudad de Tarija",
+      "descripcion": "El Valle de Concepción es famoso por sus viñedos y bodegas, además de su arquitectura colonial.",
+      "clima": "Templado.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5rzkf9mRIqVHfMLsp5kBEzMyS16_MYrW3fw&s"
+    },
+    {
+      "id":"18",
+      "nombre": "Cordillera de Sama",
+      "departamento": "Tarija",
+      "ubicacion": "Al noreste de la ciudad de Tarija",
+      "descripcion": "La Cordillera de Sama es conocida por su biodiversidad y paisajes montañosos, ideales para el ecoturismo.",
+      "clima": "Frío de altura.",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/02/RESERVA_BIOLOGICA_DE_LA_CORDILLERA_DE_SAMADSC01238.jpg"
+    },
+    {
+      "id":"19",
+      "nombre": "fuerte de samaipata",
+      "departamento": "Santa Cruz",
+      "ubicacion": "Al suroeste de la ciudad de santa cruz de la sierra",
+      "descripcion": "Samaipata es un pequeño pueblo ubicado en las estribaciones de los Andes bolivianos, conocido por su clima agradable y su riqueza histórica. Es un destino ideal para aquellos que buscan relajarse y disfrutar de la naturaleza, así como para los amantes de la historia y la arqueología",
+      "clima": "Templado.",
+      "imagen":"https://www.civitatis.com/f/bolivia/santa-cruz-de-la-sierra/big/excursion-fuerte-samaipata.jpg"
+    },
+      
+    {
+      "id":"20",
+      "nombre": "Robore",
+     "departamento": "santa cruz",
+      "ubicacion": "al este de santa cruz",
+      "descripcion": "las actividades que se pueden hacer son:Bañarse.",
+      "clima": "Tropical seco",
+      "imagen":"https://www.laregion.bo/wp-content/uploads/2016/08/chochis.jpg"
+    },
+    
+    {"id":"21",
+      "nombre": "lomas de arena",
+     "departamento": "santa cruz",
+      "ubicacion": "al sureste de santa cruz",
+      "descripcion": "Las Lomas de Arena son un área protegida de Bolivia, ubicada a solo 12 kilómetros al sureste de la ciudad de Santa Cruz de la Sierra. Famoso por sus dunas de arena que alcanzan hasta 12 metros de altura, este parque ofrece un paisaje único que combina sábana natural, bosque húmedo transicional chaqueño y una laguna principal",
+      "clima": "Tropical calido",
+      "imagen":"https://www.ibolivia.org/wp-content/uploads/2019/08/parque-regional-lomas-de-arena.jpg"
+    },
+    {
+      "id":"22",
+      "nombre": "Laguna Suarez",
+      "departamento": "Beni",
+      "ubicacion": "al noreste de la ciudad de trinidad",
+      "descripcion": "las actividades que se pueden realizar son: Observación de aves,Deportes acuáticos Paseos en bote, Picnics, Caminatas, Disfrutar de la naturaleza",
+      "clima": "Tropical calido y humedo",
+      "imagen":""
+      
+    },
+    {
+      "id":"23",
+      "nombre": "Parque Nacional Madidi",
+      "departamento": "Beni",
+      "ubicacion": "al noreste del departamento de Beni",
+      "descripcion": "Este parque nacional es uno de los más grandes y biodiversos de Bolivia. Alberga una gran variedad de flora y fauna, incluidos jaguares, monos, serpientes y aves. Los visitantes pueden hacer senderismo, paseos en bote y observación de aves en el parque.",
+      "clima": "calido y humedo",
+      "imagen": ""
+      
+    },
+    {
+      "id":"24",
+      "nombre": "Riberalta",
+      "departamento": "Beni",
+      "ubicacion": "al norte de Beni",
+      "descripcion": "Esta ciudad es la capital del Beni y es un importante centro comercial y cultural. Los visitantes pueden recorrer la ciudad, visitar el mercado local y probar la cocina local",
+      "clima": "Tropical calido ",
+      "imagen": ""
+      
+    },
+    {
+      "id":"25",
+      "nombre": "Laguna Suarez",
+      "departamento": "Beni",
+      "ubicacion": "al noreste de la ciudad de trinidad",
+      "descripcion": "las actividades que se pueden realizar son:Observación de aves,Deportes acuáticos, Paseos en bote, Picnics, Caminatas, Disfrutar de la naturaleza",
+      "clima": "Tropical calido y humedo",
+      "imagen": ""
+      
+    },
+    {
+      "id":"26",
+      "nombre": "Laguna Suarez",
+      "departamento": "Beni",
+      "ubicacion": "al noreste de la ciudad de trinidad",
+      "descripcion": "las actividades que se pueden realizar son:Observación de aves,Deportes acuáticos, Paseos en bote, Picnics, Caminatas, Disfrutar de la naturaleza",
+      "clima": "Tropical calido y humedo",
+      "imagen": ""
+      
+    },
+    {
+      "id":"27",
+      "nombre": "Laguna Suarez",
+      "departamento": "Beni",
+      "ubicacion": "al noreste de la ciudad de trinidad",
+      "descripcion": "las actividades que se pueden realizar son:Observación de aves,Deportes acuáticos, Paseos en bote, Picnics, Caminatas, Disfrutar de la naturaleza",
+      "clima": "Tropical calido y humedo",
+      "imagen": ""
+      
     }
+  
   ]
   
+
