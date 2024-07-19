@@ -1,6 +1,5 @@
 [
     {
-      "id":"1",
       "nombre": "Salar de Uyuni",
       "departamento": "Potosi",
       "ubicacion": "Ubicado al suroeste de Bolivia",
@@ -9,7 +8,6 @@
       "imagen": "https://imagenes.eltiempo.com/files/image_1200_600/uploads/2023/03/31/6426e153ac10c.jpeg"
     },
     {
-      "id":"2",
       "nombre": "Ojo del Inca",
       "departamento": "Potosi",
       "ubicacion": "Ubicado en la provincia Tomás Frías, cerca de la comunidad Tarapaya. ",
@@ -18,7 +16,7 @@
       "imagen": "https://elpotosi.net/img/contents/images_980/2019/08/31/34300790-196b-4577-b548-3cb5aa82e50a.jpg"
     },
     {
-      "id":"3",
+      
       "nombre": "Laguna Negra",
       "departamento": "Potosi",
       "ubicacion": "Ubicado a 22 km del municipio de Uyuni. ",
@@ -28,7 +26,7 @@
 
     },
     {
-      "id":"4",
+      
       "nombre": "Parque Nacional Sajama",
       "departamento": "Oruro",
       "ubicacion": "Se encuentra en los municipios de Curahuara de Carangas y Turco de la provincia de Sajama al noroeste del departamento de Oruro. ",
@@ -38,7 +36,7 @@
 
     },
     {
-      "id":"5",
+  
       "nombre": "Pampa Auliagas y la Atlántida de los Andes",
       "departamento": "Oruro",
       "ubicacion": "Ubicada en la provincia Ladislao Cabrera, al Sur de la ciudad de Oruro, distante a 180 kilómetros aproximadamente. ",
@@ -48,7 +46,7 @@
 
     },
     {
-      "id":"6",
+      
       "nombre": "Ciudad de Alcaya",
       "departamento": "Oruro",
       "ubicacion": "ubicada en el municipio de Salinas de Garci Mendoza del departamento de Oruro en el Altiplano de Bolivia.",
@@ -58,7 +56,7 @@
 
     },
     {
-      "id":"7",
+      
       "nombre": "Valle de la Luna",
       "departamento": "La Paz",
       "ubicacion": "Este maravilloso paraje debe su nombre a la escasez de flora y fauna que presenta, dándole un aspecto similar a la superficie lunar. Al llegar allí, se siente como si estuvieras en otro lugar lejos de la Tierra.",
@@ -68,7 +66,7 @@
 
     },
     {
-      "id":"8",
+      
       "nombre": "Copacabana",
       "departamento": "La Paz",
       "ubicacion": "Ubicada en la provincia Manco Kapac en el departamento de La Paz",
@@ -78,7 +76,7 @@
 
     },
     {
-      "id":"9",
+      
       "nombre": "Lago Titicaca",
       "departamento": "La Paz",
       "ubicacion": "eUbicado en la región andina de América del Sur, se extiende a través de la frontera entre Perú y Bolivia",
@@ -89,7 +87,7 @@
     },
 
     {
-      "id":"10",
+      
       "nombre": "Cristo de la Concordia",
       "departamento": "Cochabambaa",
       "ubicacion": "Cerro San Pedro, Cochabamba",
@@ -99,7 +97,7 @@
       
     },
     {
-      "id":"11",
+      
       "nombre": "Parque Nacional Carrasco",
       "departamento": "Cochabambaa",
       "ubicacion": "Provincia de Chapare, Cochabamba",
@@ -108,7 +106,7 @@
       "imagen": "https://www.boliviaentusmanos.com/turismo/imagenes/parque-carrasco-1.jpg"
     },
     {
-      "id":"12",
+      
       "nombre": "Plaza 14 de Septiembre",
       "departamento": "Cochabambaa",
       "ubicacion": "Centro de Cochabamba",
@@ -117,7 +115,7 @@
       "imagen": "https://boliviatravelsite.com/Images/Attractionphotos/plaza-14-de-septiembre-cochabamba-002.jpg"
     },
     {
-      "id":"13",
+      
       "nombre": "Plaza 25 de Mayo",
       "departamento": "Sucre",
       "ubicacion": "Centro histórico de Sucre ",
@@ -127,7 +125,7 @@
       
     },
     {
-      "id":"14",
+      
       "nombre": "Castillo de la Glorieta",
       "departamento": "Sucre",
       "ubicacion": "A las afueras de Sucre",
@@ -137,7 +135,7 @@
       
     },
     {
-      "id":"15",
+      
       "nombre": "Parque Cretácico",
       "departamento": "Sucre",
       "ubicacion": "A las afueras de Sucre",
@@ -147,7 +145,7 @@
       
     },
     {
-      "id":"16",
+      
       "nombre": "villa montes",
       "departamento": "Tarija",
       "ubicacion": "Al sureste de Tarija, cerca de la frontera con Argentina",
@@ -158,7 +156,7 @@
     },
     
     {
-      "id":"17",
+    
       "nombre": "Valle de Concepción",
       "departamento": "Tarija",
       "ubicacion": "Al noreste de la ciudad de Tarija",
@@ -167,7 +165,7 @@
       "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5rzkf9mRIqVHfMLsp5kBEzMyS16_MYrW3fw&s"
     },
     {
-      "id":"18",
+      
       "nombre": "Cordillera de Sama",
       "departamento": "Tarija",
       "ubicacion": "Al noreste de la ciudad de Tarija",
@@ -176,7 +174,7 @@
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/0/02/RESERVA_BIOLOGICA_DE_LA_CORDILLERA_DE_SAMADSC01238.jpg"
     },
     {
-      "id":"19",
+      
       "nombre": "fuerte de samaipata",
       "departamento": "Santa Cruz",
       "ubicacion": "Al suroeste de la ciudad de santa cruz de la sierra",
@@ -186,7 +184,7 @@
     },
       
     {
-      "id":"20",
+      
       "nombre": "Robore",
      "departamento": "santa cruz",
       "ubicacion": "al este de santa cruz",
@@ -195,7 +193,7 @@
       "imagen":"https://www.laregion.bo/wp-content/uploads/2016/08/chochis.jpg"
     },
     
-    {"id":"21",
+    {
       "nombre": "lomas de arena",
      "departamento": "santa cruz",
       "ubicacion": "al sureste de santa cruz",
@@ -204,61 +202,61 @@
       "imagen":"https://www.ibolivia.org/wp-content/uploads/2019/08/parque-regional-lomas-de-arena.jpg"
     },
     {
-      "id":"22",
+      
       "nombre": "Laguna Suarez",
       "departamento": "Beni",
       "ubicacion": "al noreste de la ciudad de trinidad",
       "descripcion": "las actividades que se pueden realizar son: Observación de aves,Deportes acuáticos Paseos en bote, Picnics, Caminatas, Disfrutar de la naturaleza",
       "clima": "Tropical calido y humedo",
-      "imagen":""
+      "imagen":"https://live.staticflickr.com/7024/6686287715_2a1e8df6ee_b.jpg"
       
     },
     {
-      "id":"23",
+      
       "nombre": "Parque Nacional Madidi",
       "departamento": "Beni",
       "ubicacion": "al noreste del departamento de Beni",
       "descripcion": "Este parque nacional es uno de los más grandes y biodiversos de Bolivia. Alberga una gran variedad de flora y fauna, incluidos jaguares, monos, serpientes y aves. Los visitantes pueden hacer senderismo, paseos en bote y observación de aves en el parque.",
       "clima": "calido y humedo",
-      "imagen": ""
+      "imagen": "https://www.opinion.com.bo/media/opinion/images/2023/08/04/2023080420063164162.jpg"
       
     },
     {
-      "id":"24",
+      
       "nombre": "Riberalta",
       "departamento": "Beni",
       "ubicacion": "al norte de Beni",
       "descripcion": "Esta ciudad es la capital del Beni y es un importante centro comercial y cultural. Los visitantes pueden recorrer la ciudad, visitar el mercado local y probar la cocina local",
       "clima": "Tropical calido ",
-      "imagen": ""
+      "imagen": "https://www.itsariberalta.edu.bo/turismo/web/121728f/arequipa-peru.jpg"
       
     },
     {
-      "id":"25",
-      "nombre": "Laguna Suarez",
-      "departamento": "Beni",
-      "ubicacion": "al noreste de la ciudad de trinidad",
-      "descripcion": "las actividades que se pueden realizar son:Observación de aves,Deportes acuáticos, Paseos en bote, Picnics, Caminatas, Disfrutar de la naturaleza",
+      
+      "nombre": "Cobija",
+      "departamento": "Pando",
+      "ubicacion": "al norte",
+      "descripcion": " La capital de Pando es una ciudad pequeña y tranquila con un ambiente agradable. Se pueden visitar el Parque Nacional Noel Kempff Mercado, el Museo Histórico y Cultural, y la Catedral Nuestra Señora del Pilar. También se puede disfrutar de la gastronomía local",
       "clima": "Tropical calido y humedo",
       "imagen": ""
       
     },
     {
-      "id":"26",
-      "nombre": "Laguna Suarez",
-      "departamento": "Beni",
-      "ubicacion": "al noreste de la ciudad de trinidad",
-      "descripcion": "las actividades que se pueden realizar son:Observación de aves,Deportes acuáticos, Paseos en bote, Picnics, Caminatas, Disfrutar de la naturaleza",
-      "clima": "Tropical calido y humedo",
+      
+      "nombre": "Puerto Rico",
+      "departamento": "Pando",
+      "ubicacion": "al norte",
+      "descripcion": "Esta pequeña población es un punto de partida para explorar la selva amazónica. Se pueden realizar excursiones a pie o en barco por los ríos Beni y Madre de Dios, visitar comunidades indígenas y observar la vida silvestre",
+      "clima": "Tropical Calido y humedo",
       "imagen": ""
       
     },
     {
-      "id":"27",
-      "nombre": "Laguna Suarez",
-      "departamento": "Beni",
+    
+      "nombre": "Reserva Nacional de Vida Silvestre Amazónica Manuripi",      
+      "departamento":"Pando" ,
       "ubicacion": "al noreste de la ciudad de trinidad",
-      "descripcion": "las actividades que se pueden realizar son:Observación de aves,Deportes acuáticos, Paseos en bote, Picnics, Caminatas, Disfrutar de la naturaleza",
+      "descripcion": "Esta reserva alberga una gran diversidad de flora y fauna, incluyendo jaguares, caimanes, monos y una gran variedad de aves. Se pueden realizar excursiones en barco por los ríos Manuripi y Heath, observar la vida silvestre en su hábitat natural y visitar comunidades indígenas      ",
       "clima": "Tropical calido y humedo",
       "imagen": ""
       

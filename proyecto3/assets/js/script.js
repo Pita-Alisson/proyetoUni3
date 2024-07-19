@@ -20,16 +20,18 @@ document.addEventListener('DOMContentLoaded', () => {
             <img src="${personaje.imagen}" class="card-img-top" alt="${personaje.nombre}">
             <div class="card-body">
               <h5 class="card-title">${personaje.nombre}</h5>
-              <p class="card-text"><strong>Departamento:</strong> ${personaje.departamento}</p>
-              <p class="card-text"><strong>Ubicación:</strong> ${personaje.ubicacion}</p>
-              <p class="card-text"><strong>Clima:</strong> ${personaje.clima}</p>
-              <p class="card-text"><strong>Descripción: </strong>${personaje.descripcion}</p>
-              <a  href="assets/paginas/detalles.html" class="btn btn-primary" id='${personaje.id}'>Go somewhere</a>
+              <p class="card-text"><strong></strong>${personaje.descripcion}</p>
+              <a href="assets/paginas/detalles.html?nombre=${encodeURIComponent(personaje.nombre)}" class="btn btn-primary">Ver Detalles</a>
+              
               
             </div>
           </div>
         `;
         container.appendChild(card);
+              // <p class="card-text"><strong>Departamento:</strong> ${personaje.departamento}</p>
+              // <p class="card-text"><strong>Ubicación:</strong> ${personaje.ubicacion}</p>
+              // <p class="card-text"><strong>Clima:</strong> ${personaje.clima}</p>
+            //   <a  href="assets/paginas/detalles.html" class="btn btn-primary" id='${personaje.id}'>Ver más</a>
 
       });
 

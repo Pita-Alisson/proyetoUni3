@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#detalles-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #30bfb5;
+    font-family: 'Nunito Sans',sans-serif;
+    padding: 0 20px;
+}
+.card{
+    display: flex;
+    width: 600px ;
+    height: auto;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgb(0, 0,0,0.2);
+}
+.header, .descripcion{
+    padding: 20px;
+    text-align: center;
+
+}
+.header img{
+    margin: 20px 30px;
+
+}
+.header h2{
+    color: rgb(17, 141, 40);
+}
+.descripcion{
+    position: relative;
+}
+.descripcion p{
+    margin: 20px 30px;
+}
+
+@media (max-width:640px){
+ .card-container{
+    display: block ;
+    width: 450px;
+ }
+ .header{
+    padding: 20px 20px 5px 20px ;
+    border: none;
+
+
+ }
+ .descripcion{
+    padding: 5px 20px 20px 20px;
+    background: transparent;
+ }
+ .header h2{
+    margin: 0;
+ }
+ 
+}
