@@ -1,3 +1,15 @@
+const grid = new Muuri ('.row', { 
+        layout:{
+         rounding: false
+        }
+      
+      }); 
+     
+        
+        
+     
+
+
 document.addEventListener('DOMContentLoaded', () => {
     fetch('assets/data/personajes.json')
       .then(response => response.json())
@@ -5,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mostrarPersonajes(data);
       })
       .catch(error => console.error('Error al cargar los datos:', error));
+      
   
     // Función para mostrar los personajes 
     
@@ -17,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         card.className = 'col-md-4';
         card.innerHTML = `
           <div class="card mb-4">
-            <img src="${personaje.imagen}" class="card-img-top" alt="${personaje.nombre}">
+            <img src="${personaje.imagen}" class="card-img-top" with= "200px" height="300px" alt="${personaje.nombre}">
             <div class="card-body">
               <h5 class="card-title">${personaje.nombre}</h5>
               <p class="card-text"><strong></strong>${personaje.descripcion}</p>
@@ -26,7 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
               
             </div>
           </div>
-        `;
+         `;
+          // agrego el filtrado por dpto
+
+        card.setAttribute('data-atribute',personaje.departamento); 
         container.appendChild(card);
               // <p class="card-text"><strong>Departamento:</strong> ${personaje.departamento}</p>
               // <p class="card-text"><strong>Ubicación:</strong> ${personaje.ubicacion}</p>
@@ -36,6 +52,41 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
     }
+
+    // filtrado con botones
+    const enlaces = document.querySelectorAll('#categorias a');
+    enlaces.forEach((elemento)=> {
+      elemento.addEventListener('click',(evento)=>{
+        evento.preventDefault();
+        // quita la clase
+        enlaces.forEach((enlace) => enlace.classList.remove('activo'));
+        // pone clase
+          evento.target.classList.add('activo'); 
+    
+        const categoria=evento.target.innerHTML.toLowerCase();
+        if (categoria!= 'todo'){
+          fetch('assets/data/personajes.json')
+          .then(response => response.json())
+          .then(data => {
+            const personajesFiltrados = data.filter(personaje =>
+            personaje.departamento.toLowerCase().includes(categoria)
+          );
+          mostrarPersonajes(personajesFiltrados);
+        })
+        }else{
+          fetch('assets/data/personajes.json')
+          .then(response => response.json())
+          .then(personajes => {
+          mostrarPersonajes(personajes);
+           })
+         .catch(error => console.error('Error al cargar el JSON:', error));
+        }
+    
+      })
+    })
+
+
+
 
   
     // Función de búsqueda

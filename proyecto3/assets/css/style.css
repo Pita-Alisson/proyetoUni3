@@ -53,3 +53,43 @@ video{
 .btn{
     background: #055f78;
 }
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.categorias a{
+    color: #9b9b9b;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.categorias a.activo{
+    color:#000;
+
+}
+
+
+/* con la grrid */
+.row { 
+    position: relative;
+    width: 100%;
+
+}
+.row .cold-md-4{
+
+    position: absolute;
+    display: block;
+    padding: 0;
+    margin: 10px;
+    width: calc(33.33333%-20px);
+
+}
+.row .card mb-4{
+    position: relative;
+}
+.row .cold-md-4 img{
+    width: 100%;
+}

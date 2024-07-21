@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const params = new URLSearchParams(window.location.search);
     const nombre = params.get('nombre');
   
-    fetch('assets/data/personajes.json')
+    fetch('../data/personajes.json')
       .then(response => response.json())
       .then(personajes => {
         mostrarDetalle(personajes, nombre);
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const cardText = document.createElement('p');
         cardText.classList.add('card-text');
         cardText.innerHTML = `
-          <strong>Nombre:</strong> ${personaje.nombre} <br>
+          <strong></strong> ${personaje.nombre} <br>
           <strong>Departamento:</strong> ${personaje.departamento} <br>
           <strong>Ubicacion:</strong> ${personaje.ubicacion} <br>
           <strong>Clima:</strong> ${personaje.clima} <br>
