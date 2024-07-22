@@ -3,7 +3,7 @@
       "nombre": "Salar de Uyuni",
       "departamento": "Potosi",
       "ubicacion": "Ubicado al suroeste de Bolivia",
-      "descripcion": "Marge, Bart, Lisa, Maggie",
+      "descripcion": "Está compuesto por cerca de 11 capas superpuestas de sal, salmuera y barro lacustre.Contiene aproximadamente 10,000 millones de toneladas de sal.",
       "clima": "El padre de la familia Simpson, conocido por su amor a la cerveza y su pereza.",
       "imagen": "https://imagenes.eltiempo.com/files/image_1200_600/uploads/2023/03/31/6426e153ac10c.jpeg"
     },
@@ -11,7 +11,7 @@
       "nombre": "Ojo del Inca",
       "departamento": "Potosi",
       "ubicacion": "Ubicado en la provincia Tomás Frías, cerca de la comunidad Tarapaya. ",
-      "descripcion": "Conocido por la peculiaridad de se un crater de volcán que emana desde sus profundidades agua hirviendo.",
+      "descripcion": "Conocido por la peculiaridad de ser un crater de volcán que emana desde sus profundidades agua hirviendo.Rodeada de un paisaje de cerros y de pajas bravas.",
       "clima": "Sus aguas tienen una temperatura aproximada de 35 grados.",
       "imagen": "https://elpotosi.net/img/contents/images_980/2019/08/31/34300790-196b-4577-b548-3cb5aa82e50a.jpg"
     },
@@ -238,7 +238,7 @@
       "ubicacion": "al norte",
       "descripcion": " La capital de Pando es una ciudad pequeña y tranquila con un ambiente agradable. Se pueden visitar el Parque Nacional Noel Kempff Mercado, el Museo Histórico y Cultural, y la Catedral Nuestra Señora del Pilar. También se puede disfrutar de la gastronomía local",
       "clima": "Tropical calido y humedo",
-      "imagen": ""
+      "imagen": "https://cobija.gob.bo/cbj/wp-content/uploads/2022/08/DJI_0144-scaled.jpg"
       
     },
     {
@@ -248,7 +248,7 @@
       "ubicacion": "al norte",
       "descripcion": "Esta pequeña población es un punto de partida para explorar la selva amazónica. Se pueden realizar excursiones a pie o en barco por los ríos Beni y Madre de Dios, visitar comunidades indígenas y observar la vida silvestre",
       "clima": "Tropical Calido y humedo",
-      "imagen": ""
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Rio_Orthon%2C_Pando%2C_Bolivia.jpg/760px-Mapcarta.jpg"
       
     },
     {
@@ -258,7 +258,7 @@
       "ubicacion": "al noreste de la ciudad de trinidad",
       "descripcion": "Esta reserva alberga una gran diversidad de flora y fauna, incluyendo jaguares, caimanes, monos y una gran variedad de aves. Se pueden realizar excursiones en barco por los ríos Manuripi y Heath, observar la vida silvestre en su hábitat natural y visitar comunidades indígenas      ",
       "clima": "Tropical calido y humedo",
-      "imagen": ""
+      "imagen": "https://www.ibolivia.org/wp-content/uploads/2019/08/reserva-de-vida-silvestre-manuripi.jpg"
       
     }
   

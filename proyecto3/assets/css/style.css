@@ -1,6 +1,8 @@
 
 body { 
     background-color: #43e11253;
+    padding: auto;
+    font-family: 'Nunito Sans',sans-serif;
 }
 /*Para la linea debajo el titulo*/
 .container h1::after{
@@ -11,7 +13,6 @@ body {
     margin: 20px 0;
 
 }
-
 .card {
     margin-bottom: 20px;
 }
@@ -52,6 +53,7 @@ video{
 
 .btn{
     background: #055f78;
+    
 }
 
 .categorias{

@@ -35,12 +35,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const cardText = document.createElement('p');
         cardText.classList.add('card-text');
         cardText.innerHTML = `
-          <strong></strong> ${personaje.nombre} <br>
+          
           <strong>Departamento:</strong> ${personaje.departamento} <br>
           <strong>Ubicacion:</strong> ${personaje.ubicacion} <br>
           <strong>Clima:</strong> ${personaje.clima} <br>
           <strong>Descripción:</strong> ${personaje.descripcion}
         `;
+        // <strong></strong> ${personaje.nombre} <br></br>
   
         cardBody.appendChild(cardText);
         card.appendChild(img);
